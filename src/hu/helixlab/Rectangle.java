@@ -3,21 +3,21 @@ package hu.helixlab;
 /**
  * Created by Hp_Workplace on 2017. 04. 22..
  */
-public class Rectangle extends AbstractShape{
+public class Rectangle extends AbstractShape {
 
     private float a;
     private float b;
 
-   public Rectangle(float a, float b) {
+    public Rectangle(float a, float b) {
         this.a = a;
         this.b = b;
     }
 
-    public float getPerimeter(){
-      return a * b;
+    public float getPerimeter() {
+        return a * b;
     }
 
-    public float getArea(){
+    public float getArea() {
         return 2 * (a + b);
     }
 

@@ -3,7 +3,7 @@ package hu.helixlab;
 /**
  * Created by Hp_Workplace on 2017. 04. 22..
  */
-public class Triangle extends AbstractShape{
+public class Triangle extends AbstractShape {
 
     private float a;
     private float b;
