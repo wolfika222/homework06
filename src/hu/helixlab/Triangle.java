@@ -19,11 +19,11 @@ public class Triangle extends AbstractShape {
 
     public float getArea() {
         return a + b + c;
-    }
+    } // már kész
 
     public float getPerimeter() {
         return (a * beta) / 2;
-    }
+    } // már kész
 
     public float getA() {
         return a;
