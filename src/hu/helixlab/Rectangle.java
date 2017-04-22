@@ -3,7 +3,7 @@ package hu.helixlab;
 /**
  * Created by Hp_Workplace on 2017. 04. 22..
  */
-public class Rectangle extends AbstractShape {
+public class Rectangle extends AbstractShape{
 
     private float a;
     private float b;
