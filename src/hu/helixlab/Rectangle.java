@@ -14,11 +14,11 @@ public class Rectangle extends AbstractShape {
     }
 
     public float getPerimeter() {
-        return a * b;
+        return 2 * (a + b);
     } // kész
 
     public float getArea() {
-        return 2 * (a + b);
+        return a * b;
     } // kész
 
     public float getA() {
